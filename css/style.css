@@ -4,17 +4,39 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a7a7a7;
+}
+
 .conteiner {
     max-width: 800px;
     margin: 1rem auto;
 }
 
 header {
-
-    background-color: #e678e5;
-    height: 100px;
     margin-bottom: 1rem;
 }
+
+header img {
+    height: 50px;
+}
+
+nav {
+    padding-top: 1em;
+    font-size: 0.7rem;
+}
+
+a {
+    text-decoration: none;
+    margin: 0.5em;
+    color: #a7a7a7;
+}
+
+nav a:first-child {
+    margin-left: 0;
+}
+
 
 .banner {
     background-color: #e2d47a;
